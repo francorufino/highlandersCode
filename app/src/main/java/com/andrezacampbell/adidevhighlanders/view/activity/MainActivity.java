@@ -2,6 +2,7 @@ package com.andrezacampbell.adidevhighlanders.view.activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -35,6 +36,7 @@ public class MainActivity extends AppCompatActivity implements RvPublicStoriesOn
     private RvStoriesIFollowAdapter storiesIFollowAdapter;
     private List<PublicStoriesModel> listPopStories = new ArrayList<>();
     private List<StoriesIFollowModel> listStoriesIFollow = new ArrayList<>();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -110,6 +112,7 @@ public class MainActivity extends AppCompatActivity implements RvPublicStoriesOn
         searchView = findViewById(R.id.actvtyLogin_searchView_id);
         recyclerViewPopStories = findViewById(R.id.main_rv_public_stories_id);
         recyclerViewStoriesIFollow = findViewById(R.id.main_rv_stories_ifollow_id);
+
     }
 
     private void setActivity(LoginActivity loginActivity) {
