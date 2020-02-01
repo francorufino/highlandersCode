@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_nav_search_id"
+        android:enabled="true"
+        android:icon="@drawable/searchorange"
+      />
+
+    <item
+        android:id="@+id/menu_nav_circle_id"
+        android:enabled="true"
+        android:icon="@drawable/circle"
+       />
+
+    <item
+        android:id="@+id/menu_nav_home_id"
+        android:enabled="true"
+        android:icon="@drawable/logo_icon"
+        />
+
+    <item
+        android:id="@+id/menu_nav_profile_id"
+        android:enabled="true"
+        android:icon="@drawable/user"
+       />
+
+    <item
+        android:id="@+id/menu_nav_chat_id"
+        android:enabled="true"
+        android:icon="@drawable/chat"
+        />
+
+</menu>
