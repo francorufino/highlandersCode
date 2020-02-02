@@ -1,8 +1,10 @@
-package com.andrezacampbell.adidevhighlanders;
+package com.andrezacampbell.adidevhighlanders.view.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.andrezacampbell.adidevhighlanders.R;
 
 public class PopInterestsGridActivity extends AppCompatActivity {
 

@@ -23,17 +23,13 @@ public class DetailStoriesIFollow extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail_stories_ifolllow);
         initViews();
-try{
-        if (getIntent() !=null && getIntent().getExtras() !=null){
+
+        if (getIntent() != null && getIntent().getExtras() != null) {
             StoriesIFollowModel storiesIFollowModel = getIntent().getExtras().getParcelable(STORIESIFOLLOW);
 
             Drawable drawable = getResources().getDrawable(storiesIFollowModel.getPhoto());
             imageView.setImageDrawable(drawable);
         }
-}catch (Exception e){
-    Log.d("teste", "erro" + e);
-
-}
     }
 
     private void initViews() {

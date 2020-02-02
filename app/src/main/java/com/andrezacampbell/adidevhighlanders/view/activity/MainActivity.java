@@ -12,6 +12,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.SearchView;
 
 import com.andrezacampbell.adidevhighlanders.R;
@@ -36,6 +37,8 @@ public class MainActivity extends AppCompatActivity implements RvPublicStoriesOn
     private RvStoriesIFollowAdapter storiesIFollowAdapter;
     private List<PublicStoriesModel> listPopStories = new ArrayList<>();
     private List<StoriesIFollowModel> listStoriesIFollow = new ArrayList<>();
+    private ImageView img1, img2, img3, img4, img5, img6, img7, img8, img9;
+//    private CardView c1, c2, c3, c4, c5, c6, c7, c8, c9;
 
 
     @Override
@@ -59,6 +62,13 @@ public class MainActivity extends AppCompatActivity implements RvPublicStoriesOn
         recyclerViewPopStories.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
         recyclerViewStoriesIFollow.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
 
+        img1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, PopInterestsGridActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private List<PublicStoriesModel> returnListPopStories() {
@@ -97,7 +107,6 @@ public class MainActivity extends AppCompatActivity implements RvPublicStoriesOn
         bundle.putParcelable(POPSTORIES, publicStoriesModel);
         intent.putExtras(bundle);
         startActivity(intent);
-
     }
 
     public void onClick(StoriesIFollowModel storiesIFollowModel){
@@ -112,7 +121,24 @@ public class MainActivity extends AppCompatActivity implements RvPublicStoriesOn
         searchView = findViewById(R.id.actvtyLogin_searchView_id);
         recyclerViewPopStories = findViewById(R.id.main_rv_public_stories_id);
         recyclerViewStoriesIFollow = findViewById(R.id.main_rv_stories_ifollow_id);
-
+        img1 = findViewById(R.id.main_popInt_grid_alexa_id);
+        img2 = findViewById(R.id.main_popInt_grid_android_id);
+        img3 = findViewById(R.id.main_popInt_grid_whatsapp_id);
+        img4 = findViewById(R.id.main_popInt_grid_facebook_id);
+        img5 = findViewById(R.id.main_popInt_grid_starbucks_id);
+        img6 = findViewById(R.id.main_popInt_grid_google_id);
+        img7 = findViewById(R.id.main_popInt_grid_instagran_id);
+        img8 = findViewById(R.id.main_popInt_grid_skype_id);
+        img9 = findViewById(R.id.main_popInt_grid_twitter_id);
+//        c1 = findViewById(R.id.main_popInt_grid_cv_alexa_id);
+//        c2 = findViewById(R.id.main_popInt_grid_cv_android_id);
+//        c3 = findViewById(R.id.main_popInt_grid_cv_whats_id);
+//        c4 = findViewById(R.id.main_popInt_grid_cv_facebook_id);
+//        c5 = findViewById(R.id.main_popInt_grid_cv_starbucks_id);
+//        c6 = findViewById(R.id.main_popInt_grid_cv_google_id);
+//        c7 = findViewById(R.id.main_popInt_grid_cv_instagran_id);
+//        c8 = findViewById(R.id.main_popInt_grid_cv_skype_id);
+//        c9 = findViewById(R.id.main_popInt_grid_cv_twitter_id);
     }
 
     private void setActivity(LoginActivity loginActivity) {

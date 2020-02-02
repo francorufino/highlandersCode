@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -114,6 +113,7 @@
                         android:rowCount="3">
 
                         <androidx.cardview.widget.CardView
+                            android:id="@+id/main_popInt_grid_cv_alexa_id"
                             android:layout_width="0dp"
                             android:layout_height="0dp"
                             android:layout_rowWeight="1"
@@ -151,6 +151,7 @@
                         </androidx.cardview.widget.CardView>
 
                         <androidx.cardview.widget.CardView
+                            android:id="@+id/main_popInt_grid_cv_android_id"
                             android:layout_width="0dp"
                             android:layout_height="0dp"
                             android:layout_rowWeight="1"
@@ -189,6 +190,7 @@
                         </androidx.cardview.widget.CardView>
 
                         <androidx.cardview.widget.CardView
+                            android:id="@+id/main_popInt_grid_cv_whats_id"
                             android:layout_width="0dp"
                             android:layout_height="0dp"
                             android:layout_rowWeight="1"
@@ -226,6 +228,7 @@
                         </androidx.cardview.widget.CardView>
 
                         <androidx.cardview.widget.CardView
+                            android:id="@+id/main_popInt_grid_cv_facebook_id"
                             android:layout_width="0dp"
                             android:layout_height="0dp"
                             android:layout_rowWeight="1"
@@ -263,6 +266,7 @@
                         </androidx.cardview.widget.CardView>
 
                         <androidx.cardview.widget.CardView
+                            android:id="@+id/main_popInt_grid_cv_starbucks_id"
                             android:layout_width="0dp"
                             android:layout_height="0dp"
                             android:layout_rowWeight="1"
@@ -300,6 +304,7 @@
                         </androidx.cardview.widget.CardView>
 
                         <androidx.cardview.widget.CardView
+                            android:id="@+id/main_popInt_grid_cv_google_id"
                             android:layout_width="0dp"
                             android:layout_height="0dp"
                             android:layout_rowWeight="1"
@@ -337,6 +342,7 @@
                         </androidx.cardview.widget.CardView>
 
                         <androidx.cardview.widget.CardView
+                            android:id="@+id/main_popInt_grid_cv_instagran_id"
                             android:layout_width="0dp"
                             android:layout_height="0dp"
                             android:layout_rowWeight="1"
@@ -374,6 +380,7 @@
                         </androidx.cardview.widget.CardView>
 
                         <androidx.cardview.widget.CardView
+                            android:id="@+id/main_popInt_grid_cv_skype_id"
                             android:layout_width="0dp"
                             android:layout_height="0dp"
                             android:layout_rowWeight="1"
@@ -411,6 +418,7 @@
                         </androidx.cardview.widget.CardView>
 
                         <androidx.cardview.widget.CardView
+                            android:id="@+id/main_popInt_grid_cv_twitter_id"
                             android:layout_width="0dp"
                             android:layout_height="0dp"
                             android:layout_rowWeight="1"
@@ -443,18 +451,11 @@
                                 android:layout_marginBottom="2dp"
                                 android:textColor="@color/black"
                                 android:textStyle="bold" />
-
-
                         </androidx.cardview.widget.CardView>
-
                     </GridLayout>
-
-
             </LinearLayout>
-
         </LinearLayout>
     </ScrollView>
-
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_nav_view"
         android:layout_width="match_parent"
