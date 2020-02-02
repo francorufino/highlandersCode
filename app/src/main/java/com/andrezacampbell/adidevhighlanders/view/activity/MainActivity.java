@@ -14,6 +14,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.SearchView;
+import android.widget.TextView;
 
 import com.andrezacampbell.adidevhighlanders.R;
 import com.andrezacampbell.adidevhighlanders.adapter.RvPublicStoriesAdapter;
@@ -38,6 +39,7 @@ public class MainActivity extends AppCompatActivity implements RvPublicStoriesOn
     private List<PublicStoriesModel> listPopStories = new ArrayList<>();
     private List<StoriesIFollowModel> listStoriesIFollow = new ArrayList<>();
     private ImageView img1, img2, img3, img4, img5, img6, img7, img8, img9;
+
 //    private CardView c1, c2, c3, c4, c5, c6, c7, c8, c9;
 
 
