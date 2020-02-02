@@ -5,12 +5,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.andrezacampbell.adidevhighlanders.R;
 
 public class PopInterestsGridActivity extends AppCompatActivity {
-    private TextView t1, t2, t3, t4;
+    private TextView t1, t2, t3, t4, title;
+    private ImageView imgLogo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,6 +54,7 @@ public class PopInterestsGridActivity extends AppCompatActivity {
         t2 = findViewById(R.id.actvt_popInt_grid_exp_tv_dairy_id);
         t3 = findViewById(R.id.actvt_popInt_grid_exp_tv_followers_id);
         t4 = findViewById(R.id.actvt_popInt_grid_exp_tv_similar_id);
+        imgLogo = findViewById(R.id.actvt_popInt_grid_exp_image_view_id);
     }
 
     public void goToLoginActivity(){
