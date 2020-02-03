@@ -1,11 +1,8 @@
 package com.andrezacampbell.adidevhighlanders.view.activity;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
@@ -15,7 +12,6 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.SearchView;
 import android.widget.TextView;
-
 import com.andrezacampbell.adidevhighlanders.R;
 import com.andrezacampbell.adidevhighlanders.adapter.RvPublicStoriesAdapter;
 import com.andrezacampbell.adidevhighlanders.adapter.RvStoriesIFollowAdapter;
@@ -24,11 +20,11 @@ import com.andrezacampbell.adidevhighlanders.interfaces.RvStoriesIFollowOnClick;
 import com.andrezacampbell.adidevhighlanders.model.PublicStoriesModel;
 import com.andrezacampbell.adidevhighlanders.model.StoriesIFollowModel;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements RvPublicStoriesOnClick, RvStoriesIFollowOnClick {
+    private static final String CARD1 = "card1";
     private SearchView searchView;
     public static final String POPSTORIES = "popstories";
     public static final String STORIESIFOLLOW = "storiesifollow";
@@ -61,13 +57,7 @@ public class MainActivity extends AppCompatActivity implements RvPublicStoriesOn
         recyclerViewPopStories.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
         recyclerViewStoriesIFollow.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
 
-        img1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-          goToPopIntExp();
-            }
-        });
-
+        
         img1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -182,19 +172,24 @@ public class MainActivity extends AppCompatActivity implements RvPublicStoriesOn
         searchView = findViewById(R.id.actvtyLogin_searchView_id);
         recyclerViewPopStories = findViewById(R.id.main_rv_public_stories_id);
         recyclerViewStoriesIFollow = findViewById(R.id.main_rv_stories_ifollow_id);
-        img1 = findViewById(R.id.main_popInt_grid_img_alexa_id);
-        img2 = findViewById(R.id.main_popInt_grid_img_android_id);
-        img3 = findViewById(R.id.main_popInt_grid_img_whats_id);
-        img4 = findViewById(R.id.main_popInt_grid_img_facebook_id);
-        img5 = findViewById(R.id.main_popInt_grid_img_starbucks_id);
-        img6 = findViewById(R.id.main_popInt_grid_img_google_id);
-        img7 = findViewById(R.id.main_popInt_grid_img_instagran_id);
-        img8 = findViewById(R.id.main_popInt_grid_img_skype_id);
-        img9 = findViewById(R.id.main_popInt_grid_img_twitter_id);
+        img1 = findViewById(R.id.main_popInt_grid_img_cv1_id);
+        img2 = findViewById(R.id.main_popInt_grid_img_c2_id);
+        img3 = findViewById(R.id.main_popInt_grid_img_c3_id);
+        img4 = findViewById(R.id.main_popInt_grid_img_c4_id);
+        img5 = findViewById(R.id.main_popInt_grid_img_c5_id);
+        img6 = findViewById(R.id.main_popInt_grid_img_c6_id);
+        img7 = findViewById(R.id.main_popInt_grid_img_c7_id);
+        img8 = findViewById(R.id.main_popInt_grid_img_c8_id);
+        img9 = findViewById(R.id.main_popInt_grid_img_c9_id);
     }
 
     private void setActivity(LoginActivity loginActivity) {
         Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+        startActivity(intent);
+    }
+
+    private void goToViewAll(){
+        Intent intent = new Intent(MainActivity.this, ViewAllActivity.class);
         startActivity(intent);
     }
 
@@ -239,5 +234,4 @@ public class MainActivity extends AppCompatActivity implements RvPublicStoriesOn
             }
         });
     }
-
 }

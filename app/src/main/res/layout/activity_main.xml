@@ -131,14 +131,14 @@
                                 android:orientation="vertical" />
 
                             <ImageView
-                                android:id="@+id/main_popInt_grid_img_alexa_id"
+                                android:id="@+id/main_popInt_grid_img_cv1_id"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal"
                                 android:src="@drawable/alexa" />
 
                             <TextView
-                                android:id="@+id/main_popInt_grid_tv_alexa_id"
+                                android:id="@+id/main_popInt_grid_tv_cv1_id"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="bottom|left"
@@ -170,14 +170,14 @@
                                 android:orientation="vertical" />
 
                             <ImageView
-                                android:id="@+id/main_popInt_grid_img_android_id"
+                                android:id="@+id/main_popInt_grid_img_c2_id"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal"
                                 android:src="@drawable/android" />
 
                             <TextView
-                                android:id="@+id/main_popInt_grid_tv_android_id"
+                                android:id="@+id/main_popInt_grid_tv_cv2_id"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="bottom|left"
@@ -210,14 +210,14 @@
                                 android:orientation="vertical" />
 
                             <ImageView
-                                android:id="@+id/main_popInt_grid_img_whats_id"
+                                android:id="@+id/main_popInt_grid_img_c3_id"
                                 android:layout_width="match_parent"
                                 android:layout_height="81dp"
                                 android:layout_gravity="center_horizontal"
                                 android:src="@drawable/whats" />
 
                             <TextView
-                                android:id="@+id/main_popInt_grid_tv_whats_id"
+                                android:id="@+id/main_popInt_grid_tv_cv3_id"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="bottom|left"
@@ -249,14 +249,14 @@
                                 android:orientation="vertical" />
 
                             <ImageView
-                                android:id="@+id/main_popInt_grid_img_facebook_id"
+                                android:id="@+id/main_popInt_grid_img_c4_id"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal"
                                 android:src="@drawable/fb" />
 
                             <TextView
-                                android:id="@+id/main_popInt_grid_tv_facebook_id"
+                                android:id="@+id/main_popInt_grid_tv_cv4_id"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="bottom|left"
@@ -288,14 +288,14 @@
                                 android:orientation="vertical" />
 
                             <ImageView
-                                android:id="@+id/main_popInt_grid_img_starbucks_id"
+                                android:id="@+id/main_popInt_grid_img_c5_id"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal"
                                 android:src="@drawable/starbucks" />
 
                             <TextView
-                                android:id="@+id/main_popInt_grid_tv_starbucks_id"
+                                android:id="@+id/main_popInt_grid_tv_cv5_id"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="bottom|left"
@@ -327,14 +327,14 @@
                                 android:orientation="vertical" />
 
                             <ImageView
-                                android:id="@+id/main_popInt_grid_img_google_id"
+                                android:id="@+id/main_popInt_grid_img_c6_id"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal"
                                 android:src="@drawable/google" />
 
                             <TextView
-                                android:id="@+id/main_popInt_grid_tv_google_id"
+                                android:id="@+id/main_popInt_grid_tv_cv6_id"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="bottom|left"
@@ -366,14 +366,14 @@
                                 android:orientation="vertical" />
 
                             <ImageView
-                                android:id="@+id/main_popInt_grid_img_instagran_id"
+                                android:id="@+id/main_popInt_grid_img_c7_id"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal"
                                 android:src="@drawable/insta" />
 
                             <TextView
-                                android:id="@+id/main_popInt_grid_tv_instagran_id"
+                                android:id="@+id/main_popInt_grid_tv_cv7_id"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="bottom|left"
@@ -405,14 +405,14 @@
                                 android:orientation="vertical" />
 
                             <ImageView
-                                android:id="@+id/main_popInt_grid_img_skype_id"
+                                android:id="@+id/main_popInt_grid_img_c8_id"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal"
                                 android:src="@drawable/skype" />
 
                             <TextView
-                                android:id="@+id/main_popInt_grid_tv_skype_id"
+                                android:id="@+id/main_popInt_grid_tv_cv8_id"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="bottom|left"
@@ -444,20 +444,21 @@
                                 android:orientation="vertical" />
 
                             <ImageView
-                                android:id="@+id/main_popInt_grid_img_twitter_id"
+                                android:id="@+id/main_popInt_grid_img_c9_id"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal"
                                 android:src="@drawable/twitter" />
 
                             <TextView
-                                android:id="@+id/main_popInt_grid_tv_twitter_id"
+                                android:id="@+id/main_popInt_grid_tv_cv9_id"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="left|bottom"
-                                android:text="Twitter"
+                                android:text="View All"
                                 android:layout_marginStart="4dp"
                                 android:layout_marginBottom="2dp"
+                                android:layout_marginTop="50dp"
                                 android:textColor="@color/black"
                                 android:textStyle="bold" />
                         </androidx.cardview.widget.CardView>

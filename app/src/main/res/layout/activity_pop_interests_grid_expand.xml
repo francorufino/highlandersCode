@@ -48,7 +48,7 @@
             android:layout_height="190dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="80dp"
-            android:src="@drawable/alexa" />
+            android:src="@drawable/comingsoon" />
 
         <LinearLayout
             android:layout_width="match_parent"

@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".view.activity.PopInterestsGridActivity"></activity>
+        <activity android:name=".view.activity.ViewAllActivity"></activity>
+        <activity android:name=".view.activity.PopInterestsGridActivity" />
         <activity android:name=".view.activity.DetailPopStories" />
         <activity android:name=".view.activity.LoginActivity" />
         <activity android:name=".view.activity.DetailStoriesIFollow" />

@@ -29,7 +29,7 @@ public class RvStoriesIFollowAdapter extends RecyclerView.Adapter<RvStoriesIFoll
 
     @NonNull
     @Override
-    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int positon) {
+    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.layout_item_rv_stories_ifollow,parent,false);
         return new ViewHolder(view);
     }
