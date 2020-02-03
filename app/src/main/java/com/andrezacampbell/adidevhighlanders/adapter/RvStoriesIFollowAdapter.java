@@ -36,7 +36,7 @@ public class RvStoriesIFollowAdapter extends RecyclerView.Adapter<RvStoriesIFoll
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        
+
         final StoriesIFollowModel storiesIFollowModel = listStories.get(position);
         holder.onBind(storiesIFollowModel);
 
@@ -52,10 +52,10 @@ public class RvStoriesIFollowAdapter extends RecyclerView.Adapter<RvStoriesIFoll
     public int getItemCount() {
         return listStories.size();
     }
-    
+
     public class ViewHolder extends RecyclerView.ViewHolder {
         private ImageView image;
-        
+
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             image = itemView.findViewById(R.id.item_rv_imgV_ifollow_id);

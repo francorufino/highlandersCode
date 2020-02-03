@@ -20,7 +20,7 @@ public class PopInterestsGridActivity extends AppCompatActivity {
     private TextView t2;
     private TextView t3;
     private TextView t4;
-    private ImageView imageView;
+//    private ImageView imageView;
 
 
     @Override
@@ -32,8 +32,8 @@ public class PopInterestsGridActivity extends AppCompatActivity {
         if (getIntent() !=null && getIntent().getExtras() !=null){
             PublicStoriesModel publicStoriesModel = getIntent().getExtras().getParcelable(POPSTORIES);
 
-            Drawable drawable = getResources().getDrawable(publicStoriesModel.getPhoto());
-            imageView.setImageDrawable(drawable);
+//            Drawable drawable = getResources().getDrawable(publicStoriesModel.getPhoto());
+//            imageView.setImageDrawable(drawable);
         }
 
         t1.setOnClickListener(new View.OnClickListener() {
@@ -70,7 +70,7 @@ public class PopInterestsGridActivity extends AppCompatActivity {
         t2 = findViewById(R.id.actvt_popInt_grid_exp_tv_dairy_id);
         t3 = findViewById(R.id.actvt_popInt_grid_exp_tv_followers_id);
         t4 = findViewById(R.id.actvt_popInt_grid_exp_tv_similar_id);
-        imageView = findViewById(R.id.actvt_popInt_grid_exp_image_view_id);
+//        imageView = findViewById(R.id.actvt_popInt_grid_exp_image_view_id);
     }
 
     public void goToLoginActivity(){

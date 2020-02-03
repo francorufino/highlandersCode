@@ -16,7 +16,6 @@ import com.andrezacampbell.adidevhighlanders.model.PublicStoriesModel;
 import java.util.List;
 
 public class RvPublicStoriesAdapter extends RecyclerView.Adapter<RvPublicStoriesAdapter.ViewHolder>{
-
     private RvPublicStoriesOnClick listener;
     private List<PublicStoriesModel> listStories;
 
@@ -35,7 +34,7 @@ public class RvPublicStoriesAdapter extends RecyclerView.Adapter<RvPublicStories
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        
+
         final PublicStoriesModel publicStoriesModel = listStories.get(position);
         holder.onBind(publicStoriesModel);
 
@@ -51,10 +50,10 @@ public class RvPublicStoriesAdapter extends RecyclerView.Adapter<RvPublicStories
     public int getItemCount() {
         return listStories.size();
     }
-    
+
     public class ViewHolder extends RecyclerView.ViewHolder {
         private ImageView image;
-        
+
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             image = itemView.findViewById(R.id.item_rv_imgV_id);

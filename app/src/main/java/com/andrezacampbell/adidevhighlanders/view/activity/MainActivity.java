@@ -24,7 +24,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements RvPublicStoriesOnClick, RvStoriesIFollowOnClick {
-    private static final String CARD1 = "card1";
     private SearchView searchView;
     public static final String POPSTORIES = "popstories";
     public static final String STORIESIFOLLOW = "storiesifollow";
@@ -185,11 +184,6 @@ public class MainActivity extends AppCompatActivity implements RvPublicStoriesOn
 
     private void setActivity(LoginActivity loginActivity) {
         Intent intent = new Intent(MainActivity.this, LoginActivity.class);
-        startActivity(intent);
-    }
-
-    private void goToViewAll(){
-        Intent intent = new Intent(MainActivity.this, ViewAllActivity.class);
         startActivity(intent);
     }
 
