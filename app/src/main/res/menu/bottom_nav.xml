@@ -1,34 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
         android:id="@+id/menu_nav_search_id"
         android:enabled="true"
         android:icon="@drawable/searchorange"
-      />
+        android:title="Search" />
 
     <item
         android:id="@+id/menu_nav_circle_id"
         android:enabled="true"
         android:icon="@drawable/circle"
+        android:title="Circle"
        />
 
     <item
         android:id="@+id/menu_nav_home_id"
         android:enabled="true"
         android:icon="@drawable/logo_icon"
+        android:title="Highlanders"
         />
 
     <item
         android:id="@+id/menu_nav_profile_id"
         android:enabled="true"
         android:icon="@drawable/user"
+        android:title="profile"
        />
 
     <item
         android:id="@+id/menu_nav_chat_id"
         android:enabled="true"
         android:icon="@drawable/chat"
+        android:title="chat"
         />
 
 </menu>

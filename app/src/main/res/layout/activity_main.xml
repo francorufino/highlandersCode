@@ -137,16 +137,16 @@
                                 android:layout_gravity="center_horizontal"
                                 android:src="@drawable/alexa" />
 
-                            <TextView
-                                android:id="@+id/main_popInt_grid_tv_cv1_id"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="bottom|left"
-                                android:layout_marginStart="4dp"
-                                android:layout_marginBottom="2dp"
-                                android:text="Alexa"
-                                android:textColor="@color/black"
-                                android:textStyle="bold" />
+<!--                            <TextView-->
+<!--                                android:id="@+id/main_popInt_grid_tv_cv1_id"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_gravity="bottom|left"-->
+<!--                                android:layout_marginStart="4dp"-->
+<!--                                android:layout_marginBottom="2dp"-->
+<!--                                android:text="Alexa"-->
+<!--                                android:textColor="@color/black"-->
+<!--                                android:textStyle="bold" />-->
 
 
                         </androidx.cardview.widget.CardView>
@@ -170,23 +170,24 @@
                                 android:orientation="vertical" />
 
                             <ImageView
+                                android:layout_margin="8dp"
                                 android:id="@+id/main_popInt_grid_img_c2_id"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal"
                                 android:src="@drawable/android" />
 
-                            <TextView
-                                android:id="@+id/main_popInt_grid_tv_cv2_id"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="bottom|left"
-                                android:text="Android"
-                                android:layout_marginStart="4dp"
-                                android:layout_marginBottom="2dp"
-                                android:background="@drawable/gradient"
-                                android:textColor="@color/black"
-                                android:textStyle="bold" />
+<!--                            <TextView-->
+<!--                                android:id="@+id/main_popInt_grid_tv_cv2_id"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_gravity="bottom|left"-->
+<!--                                android:text="Android"-->
+<!--                                android:layout_marginStart="4dp"-->
+<!--                                android:layout_marginBottom="2dp"-->
+<!--                                android:background="@drawable/gradient"-->
+<!--                                android:textColor="@color/black"-->
+<!--                                android:textStyle="bold" />-->
 
 
                         </androidx.cardview.widget.CardView>
@@ -210,22 +211,23 @@
                                 android:orientation="vertical" />
 
                             <ImageView
+                                android:layout_margin="8dp"
                                 android:id="@+id/main_popInt_grid_img_c3_id"
                                 android:layout_width="match_parent"
                                 android:layout_height="81dp"
                                 android:layout_gravity="center_horizontal"
                                 android:src="@drawable/whats" />
 
-                            <TextView
-                                android:id="@+id/main_popInt_grid_tv_cv3_id"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="bottom|left"
-                                android:text="WhatssApp"
-                                android:layout_marginStart="4dp"
-                                android:layout_marginBottom="2dp"
-                                android:textColor="@color/black"
-                                android:textStyle="bold" />
+<!--                            <TextView-->
+<!--                                android:id="@+id/main_popInt_grid_tv_cv3_id"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_gravity="bottom|left"-->
+<!--                                android:text="WhatssApp"-->
+<!--                                android:layout_marginStart="4dp"-->
+<!--                                android:layout_marginBottom="2dp"-->
+<!--                                android:textColor="@color/black"-->
+<!--                                android:textStyle="bold" />-->
 
 
                         </androidx.cardview.widget.CardView>
@@ -249,22 +251,23 @@
                                 android:orientation="vertical" />
 
                             <ImageView
+                                android:layout_margin="8dp"
                                 android:id="@+id/main_popInt_grid_img_c4_id"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal"
                                 android:src="@drawable/fb" />
 
-                            <TextView
-                                android:id="@+id/main_popInt_grid_tv_cv4_id"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="bottom|left"
-                                android:text="Facebook"
-                                android:layout_marginStart="4dp"
-                                android:layout_marginBottom="2dp"
-                                android:textColor="@color/black"
-                                android:textStyle="bold" />
+<!--                            <TextView-->
+<!--                                android:id="@+id/main_popInt_grid_tv_cv4_id"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_gravity="bottom|left"-->
+<!--                                android:text="Facebook"-->
+<!--                                android:layout_marginStart="4dp"-->
+<!--                                android:layout_marginBottom="2dp"-->
+<!--                                android:textColor="@color/black"-->
+<!--                                android:textStyle="bold" />-->
 
 
                         </androidx.cardview.widget.CardView>
@@ -288,22 +291,23 @@
                                 android:orientation="vertical" />
 
                             <ImageView
+                                android:layout_margin="8dp"
                                 android:id="@+id/main_popInt_grid_img_c5_id"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal"
                                 android:src="@drawable/starbucks" />
 
-                            <TextView
-                                android:id="@+id/main_popInt_grid_tv_cv5_id"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="bottom|left"
-                                android:text="Starbucks"
-                                android:layout_marginStart="4dp"
-                                android:layout_marginBottom="2dp"
-                                android:textColor="@color/black"
-                                android:textStyle="bold" />
+<!--                            <TextView-->
+<!--                                android:id="@+id/main_popInt_grid_tv_cv5_id"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_gravity="bottom|left"-->
+<!--                                android:text="Starbucks"-->
+<!--                                android:layout_marginStart="4dp"-->
+<!--                                android:layout_marginBottom="2dp"-->
+<!--                                android:textColor="@color/black"-->
+<!--                                android:textStyle="bold" />-->
 
 
                         </androidx.cardview.widget.CardView>
@@ -327,22 +331,23 @@
                                 android:orientation="vertical" />
 
                             <ImageView
+                                android:layout_margin="8dp"
                                 android:id="@+id/main_popInt_grid_img_c6_id"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal"
                                 android:src="@drawable/google" />
 
-                            <TextView
-                                android:id="@+id/main_popInt_grid_tv_cv6_id"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="bottom|left"
-                                android:text="Google"
-                                android:layout_marginStart="4dp"
-                                android:layout_marginBottom="2dp"
-                                android:textColor="@color/black"
-                                android:textStyle="bold" />
+<!--                            <TextView-->
+<!--                                android:id="@+id/main_popInt_grid_tv_cv6_id"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_gravity="bottom|left"-->
+<!--                                android:text="Google"-->
+<!--                                android:layout_marginStart="4dp"-->
+<!--                                android:layout_marginBottom="2dp"-->
+<!--                                android:textColor="@color/black"-->
+<!--                                android:textStyle="bold" />-->
 
 
                         </androidx.cardview.widget.CardView>
@@ -372,16 +377,16 @@
                                 android:layout_gravity="center_horizontal"
                                 android:src="@drawable/insta" />
 
-                            <TextView
-                                android:id="@+id/main_popInt_grid_tv_cv7_id"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="bottom|left"
-                                android:text="Instagran"
-                                android:textColor="@color/black"
-                                android:layout_marginStart="4dp"
-                                android:layout_marginBottom="2dp"
-                                android:textStyle="bold" />
+<!--                            <TextView-->
+<!--                                android:id="@+id/main_popInt_grid_tv_cv7_id"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_gravity="bottom|left"-->
+<!--                                android:text="Instagran"-->
+<!--                                android:textColor="@color/black"-->
+<!--                                android:layout_marginStart="4dp"-->
+<!--                                android:layout_marginBottom="2dp"-->
+<!--                                android:textStyle="bold" />-->
 
 
                         </androidx.cardview.widget.CardView>
@@ -411,16 +416,16 @@
                                 android:layout_gravity="center_horizontal"
                                 android:src="@drawable/skype" />
 
-                            <TextView
-                                android:id="@+id/main_popInt_grid_tv_cv8_id"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="bottom|left"
-                                android:text="Skype"
-                                android:layout_marginStart="4dp"
-                                android:layout_marginBottom="2dp"
-                                android:textColor="@color/black"
-                                android:textStyle="bold" />
+<!--                            <TextView-->
+<!--                                android:id="@+id/main_popInt_grid_tv_cv8_id"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_gravity="bottom|left"-->
+<!--                                android:text="Skype"-->
+<!--                                android:layout_marginStart="4dp"-->
+<!--                                android:layout_marginBottom="2dp"-->
+<!--                                android:textColor="@color/black"-->
+<!--                                android:textStyle="bold" />-->
 
 
                         </androidx.cardview.widget.CardView>
@@ -444,23 +449,24 @@
                                 android:orientation="vertical" />
 
                             <ImageView
+                                android:layout_margin="8dp"
                                 android:id="@+id/main_popInt_grid_img_c9_id"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_horizontal"
                                 android:src="@drawable/twitter" />
 
-                            <TextView
-                                android:id="@+id/main_popInt_grid_tv_cv9_id"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="left|bottom"
-                                android:text="View All"
-                                android:layout_marginStart="4dp"
-                                android:layout_marginBottom="2dp"
-                                android:layout_marginTop="50dp"
-                                android:textColor="@color/black"
-                                android:textStyle="bold" />
+<!--                            <TextView-->
+<!--                                android:id="@+id/main_popInt_grid_tv_cv9_id"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_gravity="left|bottom"-->
+<!--                                android:text="Twitter"-->
+<!--                                android:layout_marginStart="4dp"-->
+<!--                                android:layout_marginBottom="2dp"-->
+<!--                                android:layout_marginTop="50dp"-->
+<!--                                android:textColor="@color/black"-->
+<!--                                android:textStyle="bold" />-->
                         </androidx.cardview.widget.CardView>
                     </GridLayout>
             </LinearLayout>
