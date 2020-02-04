@@ -15,6 +15,7 @@
         android:id="@+id/actvtyLogin_et_email_id"
         android:hint="Email address"
         android:layout_width="match_parent"
+        android:inputType="textEmailAddress"
         android:layout_height="56dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
